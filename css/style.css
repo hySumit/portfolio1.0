@@ -23,7 +23,7 @@ html {
 }
 .headerHide {
   background-color: white;
-  position: fixed; /* Set position to fixed for the sticky header */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -37,7 +37,7 @@ html {
   margin: auto;
 
 }
-/* Your existing CSS styles */
+
 .headerHide.sticky {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -277,8 +277,8 @@ margin-top: 12vh;
   list-style: none;
   padding: 0;
   margin: 0;
-  animation: slide 15s linear infinite; /* Adjust the duration as needed */
-  white-space: nowrap; /* Prevent list items from wrapping to the next line */
+  animation: slide 15s linear infinite; 
+  white-space: nowrap; 
 }
 
 #section2 .fatHr li {
@@ -297,7 +297,7 @@ margin-top: 12vh;
   60%{
     transform: translateX(
       calc(-100% / 9)
-    ); /* Slide halfway to create a seamless loop */
+    ); 
   }
 }
 #section3 h1 {
