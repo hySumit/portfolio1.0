@@ -31,7 +31,20 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+// header sticky 
 
+window.onscroll = function() {
+        addStickyClass();
+    };
+
+    function addStickyClass() {
+        var header = document.getElementById("stickyHeader");
+        if (window.pageYOffset > 50) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
 
 
 
