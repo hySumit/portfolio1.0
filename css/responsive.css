@@ -22,7 +22,7 @@
   .containerMain {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2vh;
+    margin-top: 0.7vh;
     /* text-align: center; */
   }
   #section1 .containerMain .about2{
