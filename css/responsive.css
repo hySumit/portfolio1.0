@@ -89,9 +89,16 @@
     gap: 10vh;
     /* width: 100%; */
   }
-  #section3 .skillbox,
+  #section3,
   .toolbox {
     flex-wrap: wrap;
+  }
+  .skillbox{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .skillbox>div{
+    margin: auto;
   }
 
   .cardContainer {
