@@ -350,6 +350,7 @@ svg {
   line-height: 0;
 }
 
+
 .card {
   margin-top: 6vh;
   /* border: 1px solid red; */
@@ -365,6 +366,7 @@ svg {
   color: #f25f31;
   fill: black;
 }
+
 .skillbox .html:hover {
   transform: translate(-4px, -4px);
   box-shadow: 6px 5px #f25f31;
@@ -385,19 +387,35 @@ svg {
   box-shadow: 6px 5px #ffd600;
 }
 .bxl-python:hover {
-  /* color: ; */
   color: yellow;
 }
 .skillbox .python:hover {
   transform: translate(-4px, -4px);
   box-shadow: 6px 5px #ffd600;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .bxl-react:hover {
   color: #39c1d7;
+  animation: spin 3s linear infinite;
 }
 .skillbox .react:hover {
   transform: translate(-4px, -4px);
   box-shadow: 6px 5px #39c1d7;
+}
+.bxl-redux:hover {
+  color: #764ABC;
+  animation: spin 3s linear infinite;
+}
+.skillbox .redux:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 5px #764ABC;
 }
 .bxl-nodejs:hover {
   color: #4caf50;
@@ -412,6 +430,13 @@ svg {
 .toolbox .vscode:hover {
   transform: translate(-4px, -4px);
   box-shadow: 6px 5px #3281b6;
+}
+.mongodb :hover {
+  color: #00ED64;
+}
+.toolbox .mongodb:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 5px #00ED64;
 }
 .bxl-git:hover {
   color: #f4511e;

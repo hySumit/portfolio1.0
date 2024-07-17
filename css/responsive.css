@@ -12,6 +12,9 @@
     text-align: center;
     padding: 5px;
   }
+  #express{
+    margin-top: 50px;
+  }
   #section1 header {
     flex-wrap: wrap;
   }
@@ -115,6 +118,7 @@
     /* display: flex;
     flex-wrap: wrap; */
     padding: 20px;
+    font-size: 15px;
   }
   form {
     /* margin-top: 10vh; */
