@@ -120,6 +120,9 @@
     padding: 20px;
     font-size: 15px;
   }
+  .instagram{
+    display: none;
+  }
   form {
     /* margin-top: 10vh; */
     margin: auto;
