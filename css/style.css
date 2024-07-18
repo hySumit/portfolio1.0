@@ -401,6 +401,31 @@ svg {
     transform: rotate(360deg);
   }
 }
+
+.skillbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* padding: 210px; */
+  /* justify-items: center; */
+  align-items: center;
+}
+.toolbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* padding: 210px; */
+  /* justify-items: center; */
+  align-items: center;
+}
+
+
+
+
 .bxl-react:hover {
   color: #39c1d7;
   animation: spin 3s linear infinite;
@@ -423,6 +448,24 @@ svg {
 .skillbox .nodejs:hover {
   transform: translate(-4px, -4px);
   box-shadow: 6px 5px #4caf50;
+}
+.bxl-tailwind-css:hover {
+  color: #0EA5E9;
+}
+.skillbox .tailwind:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 5px #0EA5E9;
+}
+.bxl-bootstrap:hover {
+  color: #7510F6;
+}
+.skillbox .bootstrap:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 5px #7510F6;
+}
+.skillbox .chakra:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 5px #51C8C5;
 }
 .bxl-visual-studio:hover {
   color: #3281b6;
