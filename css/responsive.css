@@ -99,6 +99,27 @@
   .skillbox{
     display: grid !important;
     grid-template-columns: repeat(2,1fr);
+    
+  }
+  .toolbox{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  
+  .summ{
+    text-align: center;
+  }
+  .toolbox,.skillbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+  }
+  .toolbox>div{
+    margin: auto;
   }
   .skillbox>div{
     margin: auto;
