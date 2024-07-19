@@ -190,6 +190,7 @@ padding: 4.5em 0em 0em;
   width: 70vh;
   line-height: 1.5rem;
   font-size: 18px;
+  text-align: justifyṭ;
   font-family: "poppins",sans-serif;
 }
 .resume {
@@ -732,7 +733,11 @@ h3 span {
 }
 #section7{
   
-  padding: 4em 0em;
+  padding: 2em 0em;
+}
+.cont{
+  /* padding: 5em 0em; */
+  margin-top: 2em;
 }
 
 #section7 h1 {
