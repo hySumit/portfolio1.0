@@ -142,7 +142,14 @@
     font-size: 15px;
   }
   .instagram{
-    display: none;
+    /* display: none; */
+    /* padding: 20px; */
+  }
+  .copyright{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0.4em;
+    margin-bottom: 1em;
   }
   form {
     /* margin-top: 10vh; */
